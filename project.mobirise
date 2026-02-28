@@ -1,0 +1,189 @@
+{
+  "settings": {
+    "name": "gmgnn-ai",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/gmgn.ai-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://gmgnn-ai.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://gmgnn-ai.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "o6qh7ianvq",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 4,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "GMGN.AI - Fast Trade | Home",
+        "meta_descr": "An in-depth review of GMGN.AI, its AI crypto trading features, user reviews, security concerns, and whether the platform is legitimate or high-risk.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-1.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vcvsH8mipc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-2.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vcvsHmiJyv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://gmgn.ai/\"><img src=\"@PROJECT_PATH@/assets/images/gmgn.ai-3.png\" alt=\"gmgn.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vcvsHyItBk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n            <b><a href=\"https://gmgn.ai/\" class=\"text-primary\">GMGN.AI</a> - Fast Trade | Home</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://gmgn.ai/\" class=\"text-primary\">GMGN.AI</a>: What It Claims to Be — and What Users Are Saying</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://gmgn.ai/\" class=\"text-primary\">gmgn.ai</a> is a website that markets itself as an <b>AI-powered crypto trading platform</b>, offering advanced automation, real-time signals, and tools for tracking and trading meme coins across multiple blockchain networks.<br><br><b>What <a href=\"https://gmgn.ai/\" class=\"text-primary\">GMGN.AI</a> Advertises<br></b>According to public descriptions and platform profiles:<br><br><b>.</b> It positions itself as an AI trading assistant that uses <b>machine learning and real-time data</b> to help traders spot opportunities — particularly in fast-moving meme-coin markets.<br><br><b>. </b>Features highlighted on LinkedIn and related summaries include <b>smart wallet tracking, multi-chain support, live alerts,</b> and <b>signal generation</b> — with the aim of helping users “stay ahead” of trends without manual research.<br><br><b>. </b>The platform ostensibly integrates automated tools for trade execution, charting, and position monitoring across chains like Ethereum, Solana, Base, BNB Chain, and Tron.<br><br>These kinds of features have become increasingly common in the crypto ecosystem, where AI and automation tools promise to address the challenges of highly volatile, rapid-fire markets.<br><br><b>User Experiences and Review Landscape<br></b>Despite promotional claims, the <b>real-world experience of users appears mixed — and alarmingly negative in many cases:</b><br><br><b>Low Trustpilot Ratings<br></b>Independent review sites like Trustpilot show a <b>poor overall score</b> (around <b>2.1 out of 5 stars</b>) for gmgn.ai, based on dozens of reviews.<br>Many users report issues such as:<br><br><b>. Losing funds</b> during use and trouble withdrawing balances.<br><b>. Unexpected transactions or transfers</b> out of user wallets.<br><b>. </b>Poor customer support and unresolved complaints.<br><b>. </b>Descriptions of the platform or associated Telegram bots as a <b>scam </b>by some reviewers.<br><br>These reviews suggest a significant number of users have had negative experiences, especially around withdrawals and the safety of their funds.<br><br><b>External Scam Warnings<br></b>Independent crypto scam–tracking sites and forums have flagged <b><a href=\"https://gmgn.ai/\" class=\"text-primary\">gmgn.ai</a> as potentially fraudulent,</b> particularly when it promotes guaranteed returns — a classic red flag in crypto trading.<br><br>One report describes gmgn.ai as a “<b>fake AI trading app</b>” that misleads users and takes funds with no legitimate returns.<br><br>Another review site explicitly labels it a scam, citing a lack of transparency, unrealistic profit promises, and poor customer experiences.<br><br><b>Security and Safety Considerations<br></b>There’s <b>no clear regulatory oversight or registration</b> for <a href=\"https://gmgn.ai/\" class=\"text-primary\">gmgn.ai </a>with major financial authorities — an important factor for any platform handling real money or automated trading.<br><br>Some technical analysis sites show the <b>domain appears secure on a basic level </b>(valid SSL certificate, DNS checks), but also emphasize that <b>a secure website isn’t the same as a legitimate or trustworthy trading platform.</b><br><br>Separately, warnings about <b>fake “GMGN” websites and phishing pages</b> targeting users in crypto communities amplify the risks — even if the official site itself were legitimate, clones and malicious domains exist that drain wallets when users connect their funds.<br><br><b>So — Is <a href=\"https://gmgn.ai/\" class=\"text-primary\">GMGN.AI</a> Legit or Scam?<br></b>The simple answer is:<br><br><b>. Official claims: </b><a href=\"https://gmgn.ai/\" class=\"text-primary\">gmgn.ai</a> promotes itself as a powerful AI trading and monitoring tool for crypto traders.<br><b>. User feedback:</b> Reviews skew negative, with a large share of users reporting losses, withdrawal problems, and scam-like behavior.<br><b>. Independent warnings:</b> Multiple crypto safety sources classify the platform as high-risk or potentially fraudulent.<br><b>. General caution:</b> There’s no official regulation, and unverified platforms in the crypto space are especially prone to abuse or loss.<br><br><b>Bottom Line for Potential Users<br></b>If you’re considering <a href=\"https://gmgn.ai/\" class=\"text-primary\">gmgn.ai</a> or similar AI-powered trading tools:<br><br><b>Do your own research (DYOR)</b> — investigate reviews, regulatory status, and community discussions.<br>Be skeptical of any platform that promises high returns with little transparency.<br>Always protect your private keys and never share them with any service — only connect wallets you’re prepared to risk losing.<br><br>Given the <b>volume of negative feedback and scam warnings</b>, approaching gmgn.ai with extreme caution is strongly advised.</p>\n              </div>\n            </div>\n            \n            \n            \n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vcvsInAfFj",
+          "_anchor": "article07-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
